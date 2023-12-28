@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>SignUp</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background">
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+    <form id="signupForm">
+        <h3>SignUp</h3>
+        <label for="name">Name</label>
+        <input type="text" placeholder="Full Name" id="name">
+       
+        <label for="email">Email</label>
+        <input type="email" placeholder="Email" id="email">
+
+        <label for="password">Password</label>
+        <input type="password" placeholder="Password" id="password">
+
+        <button type="button" onclick="submitForm()">SignUp</button>
+        <p style="margin-top: 5px; text-align: center;">Have an account? <a href="/signin/signin.html">Signin</a></p>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
