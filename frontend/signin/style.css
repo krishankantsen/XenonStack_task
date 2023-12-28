@@ -6,6 +6,8 @@
     box-sizing: border-box;
 }
 body{
+    width: 100vw;
+    height: 100vh;
     background-color: whitesmoke;
 }
 .background{
@@ -101,4 +103,3 @@ button{
     border-radius: 5px;
     cursor: pointer;
 }
-
