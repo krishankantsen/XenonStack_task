@@ -13,7 +13,7 @@ function submitForm() {
         message:message
     };
     // Sending data to the server using fetch API
-    fetch('https://admin-abr97tb5k-krishankantsen.vercel.app/contact', {
+    fetch('https://admin-omega-steel.vercel.app/contact', {
         method: 'POST',
         headers: {
             "Content-Type": "application/json",
