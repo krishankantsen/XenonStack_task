@@ -13,7 +13,7 @@ function submitForm() {
         message:message
     };
     // Sending data to the server using fetch API
-    fetch('http://localhost:5000/contact', {
+    fetch('https://admin-abr97tb5k-krishankantsen.vercel.app/contact', {
         method: 'POST',
         headers: {
             "Content-Type": "application/json",
