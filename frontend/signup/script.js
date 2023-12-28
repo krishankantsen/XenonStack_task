@@ -12,7 +12,7 @@ function submitForm() {
     };
 
     // Send data to the server using fetch API
-    fetch("http://localhost:5000/signup", {
+    fetch("https://admin-abr97tb5k-krishankantsen.vercel.app/signup", {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
