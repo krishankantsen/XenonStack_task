@@ -14,7 +14,7 @@ function submitForm() {
     console.log(data);
 
     // Sending data to the server using fetch API
-    fetch('https://admin-abr97tb5k-krishankantsen.vercel.app/signin', {
+    fetch('https://admin-omega-steel.vercel.app/signin', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
