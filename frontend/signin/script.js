@@ -14,7 +14,7 @@ function submitForm() {
     console.log(data);
 
     // Sending data to the server using fetch API
-    fetch('http://localhost:5000/signin', {
+    fetch('https://admin-abr97tb5k-krishankantsen.vercel.app/signin', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
